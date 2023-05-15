@@ -1,0 +1,39 @@
+.note-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.image {
+  height: 300px;
+  width: 250px;
+}
+@media screen and(min-width:768px) {
+  .image {
+    height: 10%;
+    width: 20%;
+  }
+}
+.note-found-heading {
+  color: #183b56;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+}
+@media screen and(min-width:768px) {
+  .note-found-heading {
+    font-size: 37px;
+  }
+}
+.text {
+  color: #5a7184;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+}
+@media screen and(min-width:768px) {
+  .text {
+    font-size: 28px;
+  }
+}
