@@ -1,0 +1,61 @@
+.app-container {
+  background-color: #152850;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-container {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-website {
+  height: 80px;
+  width: 50px;
+}
+@media screen and(min-width:768px) {
+  .logo-website {
+    height: 130px;
+    width: 120px;
+  }
+}
+.logout-button {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 9px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 300;
+}
+@media screen and(min-width:768px) {
+  .logout-button {
+    font-size: 19px;
+  }
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: bold;
+}
+@media screen and(min-width:768px) {
+  .heading {
+    font-size: 28px;
+  }
+}
+.card-container {
+  height: 200px;
+  width: 140px;
+}
+@media screen and(min-width:768px) {
+  .card-container {
+    max-height: 400px;
+    max-width: 400px;
+  }
+}

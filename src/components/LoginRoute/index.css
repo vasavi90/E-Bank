@@ -103,3 +103,14 @@
     max-width: 450px;
   }
 }
+.error-msg {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 19px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .error-msg {
+    font-size: 24px;
+  }
+}
